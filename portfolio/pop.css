@@ -1,0 +1,256 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.background
+{
+    width: 538.76px; 
+    height: 734.69px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: black; 
+    border-radius: 65px;
+}
+.headimg
+{
+    width: 116.44px; 
+    height: 93.70px; 
+    left: 211.16px; 
+    top: 46.42px; 
+    position: absolute;
+}
+.letscontain
+{
+    width: 179.18px; 
+    height: 38.76px; 
+    left: 179.59px; 
+    top: 147.79px; 
+    position: absolute; 
+    text-align: center;
+}
+.letstext
+{
+    color: white; 
+    font-size: 24px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.chattext
+{
+    color: white; 
+    font-size: 24px; 
+    font-family: Instrument Serif; 
+    font-style: italic; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.details
+{
+    width: 535.61px; 
+    height: 22.57px; 
+    left: 5.25px; 
+    top: 194.08px; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Satoshi; 
+    font-weight: 100; 
+    word-wrap: break-word;
+    opacity: 70%;
+}
+.first
+{
+    width: 194.35px; 
+    height: 33.65px; 
+    left: 62.73px; 
+    top: 266.62px; 
+    position: absolute; 
+    background: #2B2B2B; 
+    border-radius: 18px;
+    border: none;
+    transition: transform .2s;
+}
+.first:hover
+{
+    transform: scale(1.06);
+}
+.last
+{
+    width: 194.35px; 
+    height: 33.65px; 
+    left: 273.07px; 
+    top: 266.62px; 
+    position: absolute; 
+    background: #2B2B2B; 
+    border-radius: 18px;
+    border:none;
+    transition: transform .2s;
+}
+.last:hover
+{
+    transform: scale(1.06);
+}
+.submit
+{
+    width: 194.35px; 
+    height: 33.65px; 
+    left: 169.34px; 
+    top: 648.23px; 
+    position: absolute; 
+    background: #252525; 
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    color: #E9E9E9;
+    transition: transform .2s;
+}
+.submit:hover
+{
+    transform: scale(1.06);
+}
+.email
+{
+    width: 404.69px; 
+    height: 33.65px; 
+    left: 62.73px; 
+    top: 350.52px; 
+    position: absolute; 
+    background: #2B2B2B; 
+    border-radius: 18px;
+    border: none;
+    transition: transform .2s;
+}
+.email:hover
+{
+    transform: scale(1.04);
+}
+.budget
+{
+    width: 404.69px; 
+    height: 33.65px; 
+    left: 62.73px; 
+    top: 430.17px; 
+    position: absolute; 
+    background: #2B2B2B; 
+    border-radius: 18px;
+    border: none;
+    transition: transform .2s;
+}
+.budget:hover
+{
+    transform: scale(1.04);
+}
+.help
+{
+    width: 404.69px; 
+    height: 92.42px; 
+    left: 63.96px; 
+    top: 509.81px; 
+    position: absolute; 
+    background: #2B2B2B; 
+    border-radius: 18px;
+    border: none;
+    transition: transform .2s;
+}
+.help:hover
+{
+    transform: scale(1.04);
+}
+.firsttext
+{
+width: 96px; 
+height: 18px; 
+left: 50px; 
+top: 241px; 
+position: absolute; 
+text-align: center; 
+color: #E9E9E9; 
+font-size: 14px; 
+font-family: Satoshi; 
+font-weight: 500; 
+word-wrap: break-word;
+}
+.emailtext
+{
+    width: 38px; 
+    height: 18px; 
+    left: 64px; 
+    top: 323px; 
+    position: absolute; 
+    text-align: center; 
+    color: #E9E9E9; 
+    font-size: 14px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.budgettext
+{
+   width: 136px; 
+   height: 19px; 
+   left: 64px; 
+   top: 402px; 
+   position: absolute; 
+   text-align: center; 
+   color: #E9E9E9; 
+   font-size: 14px; 
+   font-family: Satoshi; 
+   font-weight: 500; 
+   word-wrap: break-word;
+}
+.helptext
+{
+    width: 136px; 
+    height: 18px; 
+    left: 64px; 
+    top: 478px; 
+    position: absolute; 
+    text-align: center; 
+    color: #E9E9E9; 
+    font-size: 14px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    line-height: 18.90px; 
+    word-wrap: break-word;
+}
+.submittext
+{
+    width: 66.24px; 
+    height: 20.16px; 
+    left: 234px; 
+    top: 655px; 
+    position: absolute;
+    text-align: center; 
+    color: #B8B8B8; 
+    font-size: 15px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    line-height: 20.24px; 
+    word-wrap: break-word;
+}
+.lasttext
+{
+    width: 67.74px; 
+    height: 18.05px; 
+    left: 273px; 
+    top: 241px; 
+    position: absolute; 
+    text-align: center; 
+    color: #E9E9E9; 
+    font-size: 14px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+input
+{
+    color: rgb(161, 161, 161);
+}
+textarea
+{
+    color: rgb(161, 161, 161);
+}

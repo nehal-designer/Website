@@ -1,0 +1,1118 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+html 
+{
+    scroll-behavior: smooth;
+}  
+body
+{
+background-color: black;
+align-content: center;
+}
+.firstmain
+{
+    width: 1440px;
+    height: 2443px;
+    position: relative; 
+    background: black;
+}
+.firstback
+{
+    width: 734px; 
+    height: 380px; 
+    left: 92px; 
+    top: 110px; 
+    position: absolute; 
+    background: rgba(64.81, 64.81, 64.81, 0.22); 
+    border-radius: 42px;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.sideback
+{
+    width: 399px; height: 380px; 
+    left: 923px; 
+    top: 110px; 
+    position: absolute; 
+    background: rgba(65, 65, 65, 0.22); 
+    border-radius: 39px;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.webdestext
+{
+    left: 58px; 
+    top: 22px; 
+    position: absolute; 
+    color: #8D8D8D; 
+    font-size: 14px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.heyiam
+{
+    left: 58px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 17px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.headlogo
+{
+    width: 62.49px; 
+    height: 38px; 
+    left: 0px; 
+    top: 3px; 
+    position: absolute;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.headlogo:hover
+{
+    width: 63.49px; 
+    height: 39px; 
+    filter: drop-shadow(0 0 0.75rem rgb(118, 118, 118));
+   
+}
+.linkpos
+{
+    left: 535px; 
+    top: 152px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 11px; 
+    display: inline-flex;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.linkimg
+{
+    width: 27px; 
+    height: 23px; 
+    left: 2px; 
+    top: 5px; 
+    position: absolute;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.linkborder
+{
+    width: 31px; 
+    height: 32px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    border-radius: 8px; 
+    border: 1px rgba(121.12, 121.12, 121.12, 0.30) solid;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.linkborder:hover
+{
+    width: 33px;
+    height: 33px; 
+    border: 1.5px rgba(121.12, 121.12, 121.12, 0.30) solid;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(222, 222, 222, 0.4);
+}
+.instapos
+{
+    width: 31px; 
+    height: 32px; 
+    position: relative;
+    
+}
+.instaimg
+{
+    width: 15px; 
+    height: 14px; 
+    left: 8px; 
+    top: 9px; 
+    position: absolute;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.instaborder
+{
+    width: 31px; 
+    height: 32px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    border-radius: 8px; 
+    border: 1px rgba(121.12, 121.12, 121.12, 0.30) solid;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.instaborder:hover
+{
+    border: 1.5px rgba(121.12, 121.12, 121.12, 0.30) solid;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(222, 222, 222, 0.4);
+}
+.getintouchpos
+{
+    width: 117px; 
+    height: 32px; 
+    position: relative;
+}
+.getintouchtext
+{
+    left: 18px; 
+    top: 7px; 
+    position: absolute; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.getintouchborder
+{
+    width: 117px; 
+    height: 32px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    border-radius: 8px; 
+    border: 1px rgba(121.12, 121.12, 121.12, 0.30) solid;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.getintouchborder:hover
+{
+    border: 1px rgba(121.12, 121.12, 121.12, 0.30) solid;
+    color: rgb(193, 193, 193);
+    box-shadow: 0 5px 15px rgba(222, 222, 222, 0.4);
+}
+.firstboxtextcontainer
+{
+    width: 610px; 
+    height: 107px; 
+    left: 135px; 
+    top: 237px; 
+    position: absolute;
+    text-align: left;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.Obsessed
+{
+    color: white; 
+    font-size: 42px; 
+    font-family: Satoshi; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.timeless
+{
+    color: white; 
+    font-size: 42px;
+    font-family: Instrument Serif; 
+    font-style: italic; 
+    font-weight: 400;
+     word-wrap: break-word;
+     animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.digital
+{
+    color: white; 
+    font-size: 42px; 
+    font-family: Satoshi; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.heyiam2
+{
+    width: 635px;
+    height: 84px; 
+    left: 137px; 
+    top: 372px; 
+    position: absolute; 
+    color: #808080; 
+    font-size: 20px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-align: left;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.secondboxhi
+{
+    width: 518px; 
+    height: 361px; 
+    left: 866px; 
+    top: 138px; 
+    position: absolute;
+    filter: drop-shadow(0 0 0.75rem rgb(65, 65, 65));
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.secondboxhi:hover
+{
+    filter: drop-shadow(0 0 0.75rem rgb(73, 73, 73));
+}
+.worked
+{
+    width: 352px; 
+    left: 544px; 
+    top: 540px; 
+    position: absolute; 
+    text-align: center; 
+    color: #767676; 
+    font-size: 24px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.pspos
+{
+    width: 900px;  
+    padding-left: 300.03px; 
+    padding-right: 512.03px; 
+    left: -50px; 
+    top: 640px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 21px; 
+    display: inline-flex;
+}
+.psimg
+{
+    width: 79px; 
+    height: 70px; 
+    opacity: 0.77;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.psimg:hover
+{
+    filter: drop-shadow(0 0 0.75rem rgb(130, 130, 130));
+    width: 81px; 
+    height: 72px; 
+}
+.jsimg
+{
+    width: 79px; 
+    height: 70px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+    opacity: 80%;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.jsimg:hover
+{
+    filter: drop-shadow(0 0 0.75rem rgb(177, 177, 177));
+    width: 81px; 
+    height: 72px; 
+}
+.htmllimg
+{
+    width: 79px; 
+    height: 70px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+    opacity: 80%;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.htmllimg:hover
+{
+    filter: drop-shadow(0 0 0.75rem rgb(142, 142, 142));
+    width: 81px; 
+    height: 72px; 
+}
+.htmlimg
+{
+    width: 79px; 
+    height: 70px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+    opacity: 80%;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.htmlimg:hover
+{
+    filter: drop-shadow(0 0 0.75rem rgb(156, 156, 156));
+    width: 81px; 
+    height: 72px; 
+}
+.aiimg
+{
+    width: 84.94px; 
+    height: 70px; 
+    opacity: 0.77;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.aiimg:hover
+{
+    filter: drop-shadow(0 0 0.75rem rgb(179, 178, 178));
+    width: 81px; 
+    height: 72px; 
+}
+.figmaimg
+{
+    width: 70px; 
+    height: 70px; 
+    opacity: 0.77;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.figmaimg:hover
+{
+    filter: drop-shadow(0 0 0.75rem rgb(134, 134, 134));
+    width: 81px; 
+    height: 72px; 
+}
+.browsemywork-border
+{
+    width: 139px; 
+    height: 32px; 
+    left: 532px; 
+    top: 1150px; 
+    position: absolute; 
+    border-radius: 8px; 
+    border: 2px rgba(121.12, 121.12, 121.12, 0.30) solid;
+    animation: appearslide linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.thirdbackground
+{
+    width: 1230px; 
+    height: 386px; 
+    left: 109px; 
+    top: 844px; 
+    position: absolute; 
+    background: rgba(64.81, 64.81, 64.81, 0.22); 
+    border-radius: 63px;
+    animation: appearslidedif linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.fourthbackground
+{
+    width: 1230px; 
+    height: 568px; 
+    left: 88px; 
+    top: 1427px; 
+    position: absolute; 
+    background: rgba(64.81, 64.81, 64.81, 0.22); 
+    border-radius: 63px;
+    animation: appearslide linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.browsemyworktext
+{
+    width: 212px; 
+    left: 542px; 
+    top: 1155px; 
+    position: absolute; 
+    color: #808080; 
+    font-size: 16px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-align:left;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.browsemyworktext:hover
+{
+    filter: drop-shadow(0 0 0.75rem rgb(86, 86, 86));
+    font-size: 16.5px;
+}
+.icreate-text
+{
+    width: 697px; 
+    height: 89px; 
+    left: 532px; 
+    top: 1036px; 
+    position: absolute; 
+    color: #808080; 
+    font-size: 20px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-align: left;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.handskeepingimg
+{
+    width: 650px; 
+    height: 487px; 
+    left: 700px; 
+    top: 1518px; 
+    position: absolute;
+    filter: drop-shadow(0 0 0.75rem rgb(72, 72, 72));
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.handskeepingimg:hover
+{
+    filter: drop-shadow(0 0 0.75rem rgb(59, 59, 59));
+}
+.whtmks-text
+{
+    width: 902px; 
+    height: 106px; 
+    left: 325px; 
+    top: 957px; 
+    position: absolute; 
+    text-align: center;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.whtmks
+{
+    color: white; 
+    font-size: 45px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.diff
+{
+    color: white; 
+    font-size: 45px; 
+    font-family: Instrument Serif; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.getintouchpos2
+{
+    width: 395.38px; 
+    height: 32px; 
+    left: 208px; 
+    top: 1897px; 
+    position: absolute;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.getintouch-text
+{
+    width: 262.38px; 
+    left: 60px; 
+    top: 6px; 
+    position: absolute; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.getintouchborder2
+{
+width: 379px; 
+height: 32px; 
+left: 0px; 
+top: 0px; 
+position: absolute; 
+border-radius: 8px; 
+border: 1px rgba(121.12, 121.12, 121.12, 0.30) solid;
+animation: appearslide linear;
+animation-timeline:view() ;
+animation-range: entry 0% cover 30%;
+}
+.getintouchborder2:hover
+{
+    border: 1px rgba(121.12, 121.12, 121.12, 0.30) solid;
+    color: rgb(167, 167, 167);
+    box-shadow: 0 5px 15px rgba(222, 222, 222, 0.4);
+}
+.closeeyesimg
+{
+    width: 500px; 
+    height: 367px; 
+    left: 90px; 
+    top: 868px; 
+    position: absolute;
+    filter: drop-shadow(0 0 0.75rem rgb(77, 77, 77));
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 50%;
+}
+.closeeyesimg:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(59, 59, 59));
+}
+.fifthpos
+{
+    width: 580px; 
+    height: 100px; 
+    left: 120px; 
+    top: 1543px; 
+    position: absolute;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+    
+}
+.howcan-text
+{
+    color: white; 
+    font-size: 45px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-align:left ;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.you-text
+{
+    color: white; 
+    font-size: 45px; 
+    font-family: Instrument Serif; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.website-text
+{
+    left: 215px; 
+    top: 1753px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-align:left;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.landing-text
+{
+    width: 265px; 
+    height: 35px; 
+    left: 207px; 
+    top: 1633px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.landingbelow
+{
+    width: 401px; 
+    height: 84px; 
+    left: 215px; 
+    top: 1678px; 
+    position: absolute; 
+    color: #808080; 
+    font-size: 20px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-align: left;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 30%;
+}
+.websitebelow
+{
+    width: 392px; 
+    height: 51px; 
+    left: 216px; 
+    top: 1795px; 
+    position:absolute; 
+    color: #808080; 
+    font-size: 20px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-align: left;
+    animation: appear linear;
+    animation-timeline:view() ;
+    animation-range: entry 0% cover 40%;
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+        transform: translate(-100px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+@keyframes appearslide {
+    from{
+        opacity: 0;
+        transform: translate(-100px);
+        clip-path: inset(100% 100% 0 0);
+
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+        clip-path: inset(0 0 0 0);
+    }
+}
+@keyframes appearslidedif {
+    from{
+        opacity: 0;
+        transform: translate(-100px);
+        clip-path: inset( 0 100% 100% 0);
+
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+        clip-path: inset(0 0 0 0);
+    }
+}
+.headlogo1
+{
+    width: 250px; 
+    height: 150px; 
+    left: 0px; 
+    top: 3px; 
+    filter: drop-shadow(0 0 0.75rem rgb(118, 118, 118));
+    align-content: center;
+}
+.heyiam1
+{
+    left: 58px; 
+    top: 0px; 
+    
+    color: white; 
+    font-size: 50px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.webdestext1
+{
+    left: 58px; 
+    top: 22px;  
+    color: #8D8D8D; 
+    font-size:30px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.topmost
+{
+    background-color: #000000;
+    width: auto;
+    height: 900px;
+    align-items: center;
+    align-content: center;
+}
+@media screen and (max-width:600px) 
+{
+    .headlogo1
+    {
+        width: 350px; 
+        height: 200px; 
+        left: 0px; 
+        top: 3px; 
+        filter: drop-shadow(0 0 0.75rem rgb(118, 118, 118));
+        align-content: center;
+        padding: 0px 590px;
+    }
+    .webdestext1
+{
+    left: 58px; 
+    top: 22px;  
+    color: #8D8D8D; 
+    font-size:30px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    margin: 0px 680px;
+    display: flex;
+}
+.heyiam1
+{
+    left: 58px; 
+    top: 0px; 
+    color: white; 
+    font-size: 50px; 
+    font-family: Satoshi; 
+    margin: 0px 680px;
+    font-weight: 500; 
+    display:flex;
+    
+}
+}
+
+.background
+{
+    width: 538.76px; 
+    height: 734.69px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: rgb(17, 17, 17); 
+    border-radius: 65px;
+}
+.headimg
+{
+    width: 116.44px; 
+    height: 93.70px; 
+    left: 211.16px; 
+    top: 46.42px; 
+    position: absolute;
+}
+.letscontain
+{
+    width: 179.18px; 
+    height: 38.76px; 
+    left: 179.59px; 
+    top: 147.79px; 
+    position: absolute; 
+    text-align: center;
+}
+.letstext
+{
+    color: white; 
+    font-size: 24px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.chattext
+{
+    color: white; 
+    font-size: 24px; 
+    font-family: Instrument Serif; 
+    font-style: italic; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.details
+{
+    width: 535.61px; 
+    height: 22.57px; 
+    left: 5.25px; 
+    top: 194.08px; 
+    position: absolute; 
+    text-align: center; 
+    color: #b7b7b7a8; 
+    font-size: 14px; 
+    font-family: Satoshi; 
+    font-weight: 100; 
+    word-wrap: break-word;
+    opacity: 90%;
+}
+.first
+{
+    width: 194.35px; 
+    height: 33.65px; 
+    left: 62.73px; 
+    top: 266.62px; 
+    position: absolute; 
+    background: #2B2B2B; 
+    border-radius: 18px;
+    border: none;
+    transition: transform .2s;
+}
+.first:hover
+{
+    transform: scale(1.06);
+}
+.last
+{
+    width: 194.35px; 
+    height: 33.65px; 
+    left: 273.07px; 
+    top: 266.62px; 
+    position: absolute; 
+    background: #2B2B2B; 
+    border-radius: 18px;
+    border:none;
+    transition: transform .2s;
+}
+.last:hover
+{
+    transform: scale(1.06);
+}
+.submit
+{
+    width: 194.35px; 
+    height: 33.65px; 
+    left: 169.34px; 
+    top: 648.23px; 
+    position: absolute; 
+    background: #252525; 
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    color: #E9E9E9;
+    transition: transform .2s;
+}
+.submit:hover
+{
+    transform: scale(1.06);
+}
+.email
+{
+    width: 404.69px; 
+    height: 33.65px; 
+    left: 62.73px; 
+    top: 350.52px; 
+    position: absolute; 
+    background: #2B2B2B; 
+    border-radius: 18px;
+    border: none;
+    transition: transform .2s;
+}
+.email:hover
+{
+    transform: scale(1.04);
+}
+.budget
+{
+    width: 404.69px; 
+    height: 33.65px; 
+    left: 62.73px; 
+    top: 430.17px; 
+    position: absolute; 
+    background: #2B2B2B; 
+    border-radius: 18px;
+    border: none;
+    transition: transform .2s;
+}
+.budget:hover
+{
+    transform: scale(1.04);
+}
+.help
+{
+    width: 404.69px; 
+    height: 92.42px; 
+    left: 63.96px; 
+    top: 509.81px; 
+    position: absolute; 
+    background: #2B2B2B; 
+    border-radius: 18px;
+    border: none;
+    transition: transform .2s;
+}
+.help:hover
+{
+    transform: scale(1.04);
+}
+.firsttext
+{
+width: 96px; 
+height: 18px; 
+left: 50px; 
+top: 241px; 
+position: absolute; 
+text-align: center; 
+color: #E9E9E9; 
+font-size: 14px; 
+font-family: Satoshi; 
+font-weight: 500; 
+word-wrap: break-word;
+}
+.emailtext
+{
+    width: 38px; 
+    height: 18px; 
+    left: 64px; 
+    top: 323px; 
+    position: absolute; 
+    text-align: center; 
+    color: #E9E9E9; 
+    font-size: 14px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.budgettext
+{
+   width: 136px; 
+   height: 19px; 
+   left: 64px; 
+   top: 402px; 
+   position: absolute; 
+   text-align: center; 
+   color: #E9E9E9; 
+   font-size: 14px; 
+   font-family: Satoshi; 
+   font-weight: 500; 
+   word-wrap: break-word;
+}
+.helptext
+{
+    width: 136px; 
+    height: 18px; 
+    left: 64px; 
+    top: 478px; 
+    position: absolute; 
+    text-align: center; 
+    color: #E9E9E9; 
+    font-size: 14px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    line-height: 18.90px; 
+    word-wrap: break-word;
+}
+.submittext
+{
+    width: 66.24px; 
+    height: 20.16px; 
+    left: 234px; 
+    top: 655px; 
+    position: absolute;
+    text-align: center; 
+    color: #B8B8B8; 
+    font-size: 15px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    line-height: 20.24px; 
+    word-wrap: break-word;
+}
+.lasttext
+{
+    width: 67.74px; 
+    height: 18.05px; 
+    left: 273px; 
+    top: 241px; 
+    position: absolute; 
+    text-align: center; 
+    color: #E9E9E9; 
+    font-size: 14px; 
+    font-family: Satoshi; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+input
+{
+    color: rgb(161, 161, 161);
+}
+textarea
+{
+    color: rgb(161, 161, 161);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: auto;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #b3b3b3;
+  }
+  .popup .close:hover {
+    color: rgb(110, 110, 110);
+  }
+spline-viewer
+{
+    height:1000px;
+    width:1300px;
+    position: absolute;
+    padding: 0px 0px;
+    mix-blend-mode:lighten;
+    left:300px;
+    top:-40px;
+
+}
